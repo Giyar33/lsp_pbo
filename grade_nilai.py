@@ -6,7 +6,7 @@ while True:
     # deklarasi rata rata (harian+uts+uas)/3
     #nilai_akhir = int(nilai_harian+nilai_uts+nilai_uas)/3
     # deklarasi rata rata (harian 40% + uts 30% + uas 30%)/3
-    nilai_akhir = int(nilai_harian*40+nilai_uts*30+nilai_uas*30)/300
+    nilai_akhir = int((nilai_harian*40)+(nilai_uts*30)+(nilai_uas*30)/300)
 
     if nilai_akhir >= 85:
         predikat_nilai = 'Amat Baik'
